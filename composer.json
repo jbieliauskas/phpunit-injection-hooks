@@ -1,0 +1,13 @@
+{
+    "name": "justasb/phpunit-injection-hooks",
+    "description": "PHPUnit test hooks with Symfony dependency injection capabilities.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Justas Bieliauskas",
+            "email": "justyvas0@gmail.com"
+        }
+    ],
+    "require": {}
+}
