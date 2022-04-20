@@ -1,3 +1,5 @@
 .idea/
+.phpunit.cache/
 vendor/
+tests/functional/var/
 composer.lock

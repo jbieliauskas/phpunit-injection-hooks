@@ -9,5 +9,23 @@
             "email": "justyvas0@gmail.com"
         }
     ],
-    "require": {}
+    "require": {
+        "phpunit/phpunit": "^9.5",
+        "symfony/framework-bundle": "^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Justasb\\Phpunit\\InjectionHooks\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Justasb\\Phpunit\\InjectionHooks\\Test\\Unit\\": "tests/unit/",
+            "Justasb\\Phpunit\\InjectionHooks\\Test\\Functional\\": "tests/functional/tests/",
+            "Justasb\\Phpunit\\InjectionHooks\\Test\\Functional\\App\\": "tests/functional/app/"
+        }
+    },
+    "require-dev": {
+        "symfony/console": "^6.0"
+    }
 }
